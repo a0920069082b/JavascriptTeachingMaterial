@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='css/index.css' />
+    <link rel='stylesheet' type='text/css' href='css/pictureShow.css' />
+    <title>JavaScript 實作演練</title>
+</head>
+
+<body>
+    <div id='bodyDiv'>
+        <h1>JavaScript 實作演練</h1>
+        <div id='easyMenu' class='functionTest'>
+            <h3>簡易型選單</h3>
+        </div>
+        <hr />
+        <div id='difficultMenu' class='functionText'>
+            <h3>困難型選單</h3>
+        </div>
+        <hr />
+        <div id='easyCarousel' class='functionText'>
+            <h3>簡易型圖片輪播器</h3>
+        </div>
+        <hr />
+        <div id='difficultCarousel' class='functionText'>
+            <h3>困難型輪播器</h3>
+        </div>
+        <hr />
+        <div id='tabSwitch' class='functionText'>
+            <h3>Tab切換</h3>
+        </div>
+        <hr />
+        <div id='pictureShow' class='functionText'>
+            <h3>相簿瀏覽</h3>
+            <div id='pictureShowFunction'>
+                <a href='javascript:changeShow(1)'><img class='changeShow' src='images/previous.png' /></a>
+                <img class='mainShow' src='images/484717.jpg' />
+                <a href='javascript:changeShow(2)'><img class='changeShow' src='images/next.png' /></a>
+                <br /><br />
+                <a href='javascript:imagesChange(0);'><img class='secondaryShow' src='images/484717.jpg' /></a>
+                <a href='javascript:imagesChange(1);'><img class='secondaryShow' src='images/526200.jpg' /></a>
+                <a href='javascript:imagesChange(2);'><img class='secondaryShow' src='images/539622.jpg' /></a>
+            </div>
+        </div>
+        <hr />
+        <div id='pictureBrick' class='functionText'>
+            <h3>圖片磚塊特效</h3>
+        </div>
+    </div>
+    <script type='text/javascript' src='javascript/index.js'></script>
+    <script type='text/javascript' src='javascript/pictureShow.js'></script>
+</body>
+
+</html>

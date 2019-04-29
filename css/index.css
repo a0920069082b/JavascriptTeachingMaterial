@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#bodyDiv {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+}
+
+.functionText{
+    width:100%;
+}

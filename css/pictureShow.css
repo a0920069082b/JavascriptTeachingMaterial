@@ -1,0 +1,18 @@
+#pictureShowFunction{
+    width:60%;
+    margin:auto;
+}
+
+.changeShow{
+    width:7%;
+    vertical-align: middle;
+}
+
+.mainShow{
+    width:75%;
+    vertical-align: middle;
+}
+
+.secondaryShow{
+    width:20%;
+}
