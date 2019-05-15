@@ -1,18 +1,43 @@
-#pictureShowFunction{
-    width:60%;
-    margin:auto;
+#pictureShowFunction {
+    width: 60%;
+    margin: auto;
 }
 
-.changeShow{
-    width:7%;
+.imagesChange {
+    display: inline-block;
+    width: 31%;
+    border: 0px solid;
+    background-color: transparent;
+    outline: none;
+}
+
+.imagesChange:hover {
+    cursor: pointer;
+}
+
+
+.changeShowDom {
+    display: inline-block;
+    width: 10%;
+    border: 0px solid;
+    background-color: transparent;
+    outline: none;
+}
+
+.changeShowDom:hover {
+    cursor: pointer;
+}
+
+.changeShow {
+    width: 80%;
     vertical-align: middle;
 }
 
-.mainShow{
-    width:75%;
+.mainShow {
+    width: 75%;
     vertical-align: middle;
 }
 
-.secondaryShow{
-    width:20%;
+.secondaryShow {
+    width: 100%;
 }
