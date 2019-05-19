@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 網站外框 */
+#wrapper {
+  text-align: center;
+}
+
+/* 相簿容器 */
+.photo-container {
+  position: relative;
+  margin: auto;
+  width: 60%;
+}
+
+/* 相簿主畫面 */
+#photoMain {
+  width: 75%;
+}
+
+/* 相簿控制鈕 */
+.photo-control {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+/* 相簿控制鈕 - 上一張 */
+.photo-control .photo-prev {
+  float: left;
+  cursor: pointer;
+}
+
+/* 相簿控制鈕 - 下一張 */
+.photo-control .photo-next {
+  float: right;
+  cursor: pointer;
+}
+
+/* 相簿下方列表 */
+.photo-list {
+  margin-top: 30px;
+}
+
+/* 相簿下方列表 - 項目 */
+.photo-list .photo-item {
+  cursor: pointer;
+}

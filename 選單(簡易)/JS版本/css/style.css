@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Microsoft JhengHei;
+}
+
+/* 網頁主區塊 */
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+/* 導覽區塊 */
+.menu-nav {
+    width: 70%;
+    margin:auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* 第一層 */
+.menu-parent,
+.menu-parent-list {
+    cursor: pointer;
+    height: 30px;
+}
+
+/* 第一層ul */
+.menu-parent {
+    width: 100%;
+}
+
+/* 第一層li */
+.menu-parent-list {
+    position: relative;
+    list-style: none;
+    width: 15%;
+    border: 1px solid #444;
+    background-color: #888;
+    line-height: 30px;
+    color: #FFF;
+    float: left;
+}
+
+/* 第二層 */
+.menu-child0,
+.menu-child0-list {
+    margin:0px;
+    padding: 0px;
+    min-width: 133px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* 第二層ul */
+.menu-child0 {
+    display:none;
+    position: absolute;
+    list-style: none;
+    position: relative;
+}
+
+/* 第二層li */
+.menu-child0-list {
+    width: 100%;
+    white-space: nowrap;
+    border: 1px solid #444;
+    background-color: #DDD;
+    line-height: 30px;
+    position: relative;
+    color: #000;
+}
+
+/* 第三層 */
+.menu-child1,
+.menu-child1-list {
+    margin:0px;
+    padding:0px;
+    cursor: pointer;
+    text-align: center;
+    height: 30px;
+    min-width: 133px;
+}
+
+/* 第三層ul */
+.menu-child1 {
+    display: table;
+    position: absolute;
+    list-style: none;
+    padding: 0px;
+    left: 100%;
+    top:0px;
+}
+
+/* 第三層li */
+.menu-child1-list {
+    width: 100%;
+    border: 1px solid #444;
+    background-color: #DDD;
+    line-height: 30px;
+    color: #000;
+    position: relative;
+}

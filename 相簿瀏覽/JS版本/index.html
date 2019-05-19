@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript 實作演練</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>JavaScript 實作演練</h1>
+    <h3>相簿瀏覽</h3>
+
+    <div class="photo-container">
+      <!-- 主容器 -->
+      <img id="photoMain" src="images/484717.jpg" />
+      <!-- 相簿按鈕 -->
+      <div class="photo-control">
+        <img class="photo-prev" width="60" src="images/previous.png" onclick="onPrev()" />
+        <img class="photo-next" width="60" src="images/next.png" onclick="onNext()" />
+      </div>
+      <!-- 相簿列表 -->
+      <div class="photo-list">
+        <img class="photo-item" width="200" src="images/484717.jpg" />
+        <img class="photo-item" width="200" src="images/526200.jpg" />
+        <img class="photo-item" width="200" src="images/539622.jpg" />
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
