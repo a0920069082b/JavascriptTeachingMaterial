@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Microsoft JhengHei;
+}
+
+/* 網頁主區塊 */
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+/* 導覽區塊 */
+.menu-nav {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* 第一層 */
+.menu,
+.menu-list {
+    cursor: pointer;
+    height: 30px;
+}
+
+/* 第一層ul */
+.menu {
+    width: 100%;
+}
+
+/* 第一層li */
+.menu-list {
+    position: relative;
+    list-style: none;
+    width: 15%;
+    border: 1px solid #444;
+    background-color: #888;
+    line-height: 30px;
+    color: #FFF;
+    float: left;
+}
+
+/* 下拉選單內容區塊 */
+.menu-list-content-div {
+    position: absolute;
+    display: none;
+    box-shadow: 3px 3px 3px 3px #888;
+    min-width: 800px;
+    left: -265px;
+    text-align: left;
+}
+
+/* ul選單區塊(直向) */
+.list-content-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* 內容區塊內的ul */
+.content-ul {
+    list-style: none;
+}
+
+/* 內容區塊內的li內的font元素 */
+.content-ul-list>font {
+    font-weight: bold;
+    color: #000;
+}
+
+/* 內容區塊內的li內的a元素 */
+.content-ul-list>a {
+    text-decoration: none;
+    color: #444;
+}
+
+/* 當滑鼠移過內容區塊內的li內的a元素 */
+.content-ul-list>a:hover {
+    text-decoration: underline;
+}
+
+/* 內容區塊內有圖片的li */
+.ul-images-list {
+    background-color: #DDD;
+    width: 150px;
+    text-align: center;
+}
+
+/* 內容區塊內有圖片的li裡的a */
+.ul-images-list>a {
+    text-decoration: none;
+    color: #444;
+    white-space: normal;
+}
+
+/* 當滑鼠移過內容區塊內有圖片的li裡的a */
+.ul-images-list>a:hover {
+    text-decoration: underline;
+}
