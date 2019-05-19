@@ -1,0 +1,120 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 網頁主區塊 */
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+}
+
+/* 圖片顯示區塊 */
+#imagesBlock {
+    position: relative;
+    padding: 0px;
+    margin: auto;
+    overflow-x: hidden;
+    width: 800px;
+}
+
+/* 圖片顯示區塊的ul */
+#imagesBlock>ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 2500px;
+    text-align: left;
+}
+
+/* 圖片顯示區塊的li */
+#imagesBlock>ul>li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+}
+
+/* 圖片 */
+#imagesBlock>ul>li>img {
+    width: 800px;
+}
+
+/* 控制區塊，包含上一張、下一張、索引圓點 */
+.control {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+}
+
+/* 當滑鼠移過控制區塊，包含上一張、下一張、索引圓點 */
+.control:hover{
+    cursor: pointer;
+}
+
+/* 索引圓點區塊 */
+#dotBlock {
+    margin: auto;
+    padding: 0px;
+    top: 420px;
+    left: 365px;
+    border-radius: 15px 15px;
+}
+
+/* 索引圓點區塊的ul */
+#dotBlock>ul {
+    display: inline-block;
+    width: 70px;
+    
+    list-style: circle;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/* 索引圓點 */
+#dotBlock>ul>li {
+    margin-left: 20px;
+    float: left;
+    line-height: 20px;
+}
+
+/* 第一個索引圓點 */
+#dotBlock>ul>li:first-child {
+    margin-left: 30px;
+}
+
+/* 當滑鼠移過索引圓點 */
+#dotBlock>ul>li:hover {
+    list-style: disc;
+    color: #FF0;
+}
+
+/* 上一張、下一張控制區塊 */
+.images-control {
+    display: inline-block;
+    top: 200px;
+    line-height: 50px;
+    font-size: 20px;
+    width: 40px;
+    font-weight: bold;
+}
+
+/* 當滑鼠移過上一張、下一張控制區塊 */
+.images-control:hover{
+    color: #FF0;
+}
+
+/* 上一張 */
+#previous {
+    left: 0px;
+}
+
+/* 下一張 */
+#next {
+    right: 0px;
+}

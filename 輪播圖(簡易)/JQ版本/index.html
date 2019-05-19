@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>輪播圖(簡易)</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+    <!--主顯示區塊-->
+        <h1>JavaScript 實作演練</h1>
+        <h3>輪播圖(簡易)</h3>
+        <div id="imagesBlock">
+        <!--圖片顯示區塊-->
+            <div class="control images-control" id="previous" onclick="javascript:onPrevious();" > < </div>
+            <!--上一張控制區塊-->
+            <ul class="images-ul">
+            <!--圖片清單-->
+                <li class="images-list"><img src="images/01.jpg" /></li>
+                <li class="images-list"><img src="images/02.jpg" /></li>
+                <li class="images-list"><img src="images/03.jpg" /></li>
+            </ul>
+            <div class="control images-control" id="next" onclick="javascript:onNext();"> > </div>
+            <!--下一張控制區塊-->
+            <div class="control" id="dotBlock">
+            <!--索引圓點區塊-->
+                <ul>
+                <!--索引圓點-->
+                    <li class="dot-index"></li>
+                    <li class="dot-index"></li>
+                    <li class="dot-index"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
