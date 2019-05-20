@@ -1,0 +1,140 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 網頁主區塊 */
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+}
+
+/* 圖片顯示區塊 */
+#imagesBlock {
+    position: relative;
+    padding: 0px;
+    margin: auto;
+    overflow-x: hidden;
+    width: 1100px;
+}
+
+/* 圖片顯示區塊的ul */
+#imagesBlock>ul {
+    list-style: none;
+    margin: 0px 0px 0px -350px;
+    padding: 0px;
+    width: 3300px;
+    text-align: center;
+}
+
+/* 圖片顯示區塊的li */
+#imagesBlock>ul>li {
+    position: relative;
+    float: left;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    width: 600px;
+}
+
+/* 圖片 */
+#imagesBlock>ul>li>img {
+    width: 600px;
+    height: 300px;
+}
+
+/* 控制區塊，包含上一張、下一張、索引圓點 */
+.control {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+}
+
+/* 當滑鼠移過控制區塊，包含上一張、下一張、索引圓點 */
+.control:hover {
+    cursor: pointer;
+}
+
+/* 索引圓點區塊 */
+#dotBlock {
+    margin: auto;
+    padding: 0px;
+    top: 270px;
+    left: 520px;
+    border-radius: 15px 15px;
+}
+
+/* 索引圓點區塊的ul */
+#dotBlock>ul {
+    display: inline-block;
+    width: 90px;
+    list-style: circle;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/* 索引圓點 */
+#dotBlock>ul>li {
+    margin-left: 20px;
+    float: left;
+    line-height: 20px;
+    z-index: 10;
+}
+
+/* 第一個索引圓點 */
+#dotBlock>ul>li:first-child {
+    margin-left: 30px;
+    list-style: disc;
+    color: #FF0;
+}
+
+/* 當滑鼠移過索引圓點 */
+#dotBlock>ul>li:hover {
+    list-style: disc;
+    color: #FF0;
+}
+
+/* 上一張、下一張控制區塊 */
+.images-control {
+    display: inline-block;
+    top: 140px;
+    line-height: 50px;
+    font-size: 20px;
+    width: 40px;
+    font-weight: bold;
+    z-index: 99;
+}
+
+/* 當滑鼠移過上一張、下一張控制區塊 */
+.images-control:hover {
+    color: #FF0;
+}
+
+/* 上一張 */
+#previous {
+    left: 250px;
+}
+
+/* 下一張 */
+#next {
+    right: 210px;
+}
+
+/* 圖片遮罩 */
+.images-mask {
+    display: block;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color: #888;
+    opacity: 0.4;
+    top: 0px;
+}
+
+.images-ul>.images-list:nth-child(2)>.images-mask{
+    opacity: 0;
+}
